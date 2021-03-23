@@ -23,8 +23,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/angelantonyc/profile-card)
-- Live Site URL: [Add live site URL here](https://angelantonyc.github.io/profile-card/)
+- Solution URL: [https://github.com/angelantonyc/profile-card](https://github.com/angelantonyc/profile-card)
+- Live Site URL: [https://angelantonyc.github.io/profile-card/](https://angelantonyc.github.io/profile-card/)
 
 ## My process
 
@@ -35,4 +35,3 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Styled Components](https://styled-components.com/) - For styles
