@@ -1,35 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | Profile card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="container blueC">
+        <div class="card cardClass">
+          <div class="card-header" id="cardTop">
+            <div class="cardPattern">
+              <img src="images/bg-pattern-card.svg" alt="" />
+            </div>
 
-  80K
-  Followers
+            <div class="imageVictor">
+              <img src="./images/image-victor.jpg" alt="..." />
+            </div>
+          </div>
 
-  803K
-  Likes
+          <div class="card-body" id="cardBottom">
+            <div class="card-title name pt-3">
+              Victor Crest <span class="text-muted">26</span>
+              <h6 class="card-subtitle mt-2 mb-2 text-muted">London</h6>
+            </div>
+            <div class="card-footer row">
+              <div class="col-lg-4 desc">
+                80K <span class="subDesc text-muted">Followers</span>
+              </div>
+              <div class="col-lg-4 desc">
+                803K <span class="subDesc text-muted">Likes</span>
+              </div>
+              <div class="col-lg-4 desc">
+                1.4K <span class="subDesc text-muted">Photos</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  1.4K
-  Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Angel Antony</a>.
+    </div>
+  </body>
 </html>
